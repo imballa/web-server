@@ -1,0 +1,27 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Simple app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Vivek Desai",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "jade": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "nodemailer": "*",
+    "passport": "*",
+    "passport-jwt": "*",
+    "request": "^2.88.0",
+    "validator": "*"
+  },
+  "devDependencies": {
+    "nodemon": ""
+  }
+}
